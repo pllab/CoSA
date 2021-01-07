@@ -324,7 +324,8 @@ verification_choices = [
     VerificationType.DETERMINISTIC,
     VerificationType.SIMULATION,
     VerificationType.LTL,
-    VerificationType.PARAMETRIC
+    VerificationType.PARAMETRIC,
+    VerificationType.EQUIVALENCE,
                          ]
 ver_options.set_defaults(verification=None)
 ver_options.add_argument('--verification', type=str,
